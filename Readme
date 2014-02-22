@@ -1,0 +1,14 @@
+Thank you for trying out Yellow-Mobile ! How to install:
+
+1. Move the whole 'Yellow-Mobile' folder into your themes directory (.../themes).
+
+
+2. Access the config.php file and add Yellow-Mobile to the mobile theme configuration.
+
+
+$Configuration['Garden']['MobileTheme'] = 'Yellow-Mobile';
+
+
+
+3. Add the plugin Go Back Mobile to allow going back to mobile after visiting full site.
+----------------------------------------------

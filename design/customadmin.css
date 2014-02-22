@@ -1,0 +1,877 @@
+#Body {
+background:none repeat scroll 0 0 #ffef99;
+color:#000;
+float:left;
+font-size:14px;
+font-weight:bold;
+width:100%;
+}
+body {
+color:#000;
+font-family: 'lucida grande','Lucida Sans Unicode', Tahoma, sans-serif;
+font-size:14px;
+line-height: 1.7;
+margin: 0;
+padding: 0;
+background: gold;
+border-right: 3px dotted #000;
+border-top: none;
+border-left:3px dotted #000;
+border-bottom: none;
+}
+#Content {
+border:none;
+margin:0!important;
+padding:0;
+}
+
+#Content h1, #Content h3 {
+text-shadow: 0 1px 0 #ffd700;
+color: #000;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffd700, endColorstr=#FFFF00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd700), to(#FFFF00)) ;
+  background: -moz-linear-gradient(top,  #ffd700,  #FFFF00);
+border:3px dotted #000;
+border-right:none;
+border-left:none;
+padding: 10px 20px;
+font-size: 17px;
+font-weight:bold;
+margin: 0;
+}
+
+#Foot {
+color: #000;
+border: 3px dotted #000;
+border-right:3px dotted #000;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 5px gold;font-size:16pt;
+width:100%;
+}
+
+#Foot .Version {
+color:#000;
+font-size:12px;
+font-weight:700;
+}
+
+#Head {
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffd700, endColorstr=#FFFF00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd700), to(#FFFF00));
+  background: -moz-linear-gradient(top,  #ffd700, #FFFF00);
+   border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 5px #000000;font-size:16pt;
+border: 3px dotted #000;
+border-bottom:3px solid yellow;
+border-right:none;
+border-left: none;
+padding:10px 18px;
+text-align:right;
+}
+
+#Head div.User a, #Head h1 a span {
+border: 1px solid #666;
+border-radius: 13px 3px 3px 3px;
+color:#FFD700!important;
+font-family: arial;
+font-size: 15px;
+font-weight: 700;
+margin: 0 0 0 6px;
+text-shadow: 1px 2px 0 #000;
+background: none #000;
+}
+#Head div.User {
+padding: 8px 0 0;
+line-height: 160%;
+background: -webkit-gradient(linear, center bottom, center top, from( 
+#000000),to( 
+#adadad));
+background: -moz-linear-gradient(top, 
+#000000, 
+#adadad);
+-pie-background: linear-gradient(top, #000000, #adadad);
+background: linear-gradient(top, 
+#000000, 
+#adadad);
+border: 1px solid 
+#666;
+border-radius: 4px 4px 4px 4px;
+box-shadow: 0 0 2px #999;
+cursor: pointer;
+font-size: 14px;
+font-weight: 700;
+margin: 0;
+text-decoration: none;
+padding: 10px 6px 10px;
+}
+#Head div.User a:focus,#Head div.User a:hover,#Head div.User a.Profile:focus,#Head div.User a.Profile:hover,#Head div.User a:focus,#Head h1 a span:focus,#Head div.User a:hover,#Head h1 a span:hover {
+box-shadow:0 0 2px #FAFAD2;
+color:#FFFF00!important;
+font-size:15px;
+text-shadow:1px 2px 0 #000;
+}
+
+#Head h1 a {
+color:#FAFAD2;
+font-size:24px;
+text-shadow:1px 2px 0 #000;
+}
+#Head h1 {
+line-height: 160%;
+cursor: pointer;
+font-size: 14px;
+font-weight: 700;
+margin: 0;
+text-decoration: none;
+padding: 10px 6px 10px;
+}
+#Panel {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffd700, endColorstr=#FFFF00);
+background: -webkit-gradient(linear, left top, left bottom, from(
+#ffd700), to(#FFFF00));
+background: -moz-linear-gradient(top,#ffd700,#FFFF00);
+border-left:none;
+border-right: none;
+border-top: 1px solid transparent;
+border-bottom: 3px dotted #000;
+margin: 0 0 0 2px;
+width: 99%;
+}
+float:left;
+margin:0;
+width:195px;
+}
+
+#Panel div.Active {
+background:#FAFAD2!important;
+border-bottom: 1px solid transparent;
+border-left: 3px dotted #000;
+border-right: 3px dotted #000;
+border-top: 3px dotted #000;
+margin: 0;
+}
+
+#Panel div.Box {
+border-bottom: 1px solid 
+transparent;
+border-left: none;
+border-right: none;
+border-top: 3px dotted #000;
+margin: 0;
+box-shadow: none;
+}
+#Panel div.Box h4 {
+color:#000;
+font-size:18px;
+font-weight:700;
+padding:10px;
+text-shadow:1px 2px 0  #ffd700;
+background-position: 160px -145px;
+}
+
+#Panel div.Box h4 a {
+color:#000;
+text-shadow:1px 2px 0  #ffd700;
+}
+#Panel div.Dashboard h4 {
+background-position: 160px 7px;
+}
+#Panel div.Users h4 {
+background-position: 160px -292px;
+}
+#Panel div.Appearance h4 {
+background-position: 160px -1195px;
+}
+#Panel div.Moderation h4 {
+background-position: 160px -742px;
+}
+#Panel div.Addons h4 {
+background-position: 160px -240px;
+}
+#Panel div.SiteSettings h4 {
+background-position: 160px -92px;
+}
+#Panel div.Import h4 {
+background-position: 160px -1139px;
+}
+
+#RecentUsers img {
+border-radius:40px 40px 40px 40px;
+float:left;
+height:40px;
+margin-right:8px;
+overflow:hidden;
+width:40px;
+}
+
+.Aside {
+background: none repeat scroll 0 0 #ff0;
+border: 2px solid #000;
+border-radius: 3px 3px 3px 3px;
+float: right;
+margin: 6px;
+position: relative;
+width: 220px;
+z-index: 200;
+}
+
+.CheckBoxGrid a:hover {
+background:#ffd700;
+text-decoration:none;
+text-shadow:1px 2px 0 #000;
+}
+
+.CheckBoxGrid tbody th, .CheckBoxGrid thead td, .CheckBoxGrid thead td.Alt, .CheckBoxGrid thead th, .CheckBoxGrid thead th.Alt, table thead th, table thead td, table.AltColumns thead th.Alt, table.AltColumns thead td.Alt {
+background:#ffd700;
+font-size: 13px;
+color:#000;
+text-shadow: 0 1px 0 #ffd700;
+}
+
+.CheckBoxGrid th a,.CheckBoxGrid td a,.CheckBoxGrid th a:hover,.CheckBoxGrid td a:hover {
+color:#000!important;
+text-shadow:1px 2px 0  #ffd700;
+}
+
+.CheckBoxGrid thead th a,.CheckBoxGrid thead th a:hover {
+color:#000!important;
+text-shadow:1px 2px 0  #ffd700;
+}
+
+.Configuration {
+background:#FF0!important;
+border: 3px dotted #000;
+float: left;
+margin: 0 5px 5px;
+}
+.ConfigurationForm {
+border-right:3px dotted #000;
+padding: 20px;
+float: left;
+}
+.EmbedTheme,.EmbedCode {
+border-right:1px solid #000;
+}
+
+.EmbedTheme,.EmbedRecommend,.EmbedCode,.EmbedPlugins {
+background:none repeat scroll 0 0 #FF0;
+display:inline-block;
+min-height:188px;
+padding:20px;
+vertical-align:top;
+width:320px;
+}
+
+.Embeds {
+background: none repeat scroll 0 0 #FF0;
+margin: 0 20px;
+border: 3px dotted 
+#000;
+}
+.EmbedTheme em, .EmbedRecommend em, .EmbedPlugins em, .EmbedCode em {
+display: block;
+color:#555;
+font-size: 14px;
+}
+.Help h2 {
+color:#000;
+font-size:14px;
+font-weight:700;
+margin:0 0 10px;
+text-shadow:none;
+}
+
+.HomeOptions a.categoriesall {
+background-position: -561px 23px;
+}
+
+.HomeOptions a.categoriesdiscussions {
+background-position: -179px 23px;
+}
+
+.HomeOptions a.activity {
+background-position: -369px 23px;
+}
+.HomeOptions a {
+color:yellow!important;
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+vertical-align: bottom;
+margin: 0 10px 10px 0;
+padding: 0 6px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border: 3px solid yellow;
+background: url('images/homepage-sprites.png') 12px 23px no-repeat #000;
+height: 152px;
+width: 190px;
+text-align: center;
+text-shadow:0 2px 0 #000!important;
+}
+
+.HomeOptions a:hover {
+color:gold!important;
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+vertical-align: bottom;
+margin: 0 10px 10px 0;
+padding: 0 6px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border: 3px solid gold;
+background: url('images/homepage-sprites.png') 12px 23px no-repeat #000;
+height: 152px;
+width: 190px;
+text-align: center;
+text-shadow:0 2px 0 #000!important;
+}
+.Meta-Label {
+color:#000;
+}
+.Sortable table {
+background:none repeat scroll 0 0 #222;
+border:2px dotted #000;
+margin:-1px 0 0 -1px
+border-top:none;
+}
+
+.Sortable table td {
+background: none repeat scroll 0 0 #FFD700;
+border:2px dotted #000;
+cursor:move;
+padding: 6px;
+vertical-align: top;
+border-top:none;
+}
+.StatisticsOk {
+background:#d6ffcf;
+text-align: center;
+border: 2px dotted #000;
+color:#06a800;
+font-size: 18px;
+font-weight: bold;
+}
+.Tag {
+color:#fff;
+font-weight: bold;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+font-size: 14px;
+padding: 1px 6px !Important;
+background:none;
+}
+.Tag-Edit {
+background: linear-gradient(top,#000000,red);
+background: -webkit-gradient(linear, center bottom, center top, from(#000000),to(red));
+background: -moz-linear-gradient(top, #000000,red);
+-pie-background: linear-gradient(top, #000000, red);
+background: linear-gradient(top, #000000, red);
+padding: 3px 6px !Important;
+border-radius: 4px 4px 4px 4px;
+border: 1px solid #666;
+}
+.Tag-Edit:hover {
+background: linear-gradient(top,red,#000000);
+background: -webkit-gradient(linear, center bottom, center top, from(red),to(#000000));
+background: -moz-linear-gradient(top,red,#000000);
+-pie-background: linear-gradient(top,red,#000000);
+background: linear-gradient(top,red,#000000);
+padding: 3px 6px !Important;
+border-radius: 4px 4px 4px 4px;
+border: 1px solid #666;curser:pointer;
+}
+.UsernameCell a:hover{
+color:#0028ff;
+}
+
+.Warning {
+background:#ffd700;
+color:#000;
+font-size:16px;
+border:3px dotted #000;
+}
+
+a, a:link, a:visited, a:active {
+text-decoration: none;
+color:#00F;
+font-size:14px;
+font-weight:700;
+text-decoration:none;
+text-shadow:none;
+}
+
+a.Close {
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background:none gold;
+border-bottom:1px solid #666;
+border-radius:3px;
+cursor:pointer;
+font-family:arial;
+font-size:22px;
+font-weight:700;
+height:18px;
+line-height:1;
+overflow:hidden;
+padding:0;
+position:absolute;
+right:10px;
+top:7px;
+width:18px;
+}
+a.Close span {
+visibility: visible!important;
+display: block;
+position: relative;
+top: -2px;
+left: -2px;
+color: 
+#000!important;
+font-size: 22px;
+font-weight: 700;
+background: 
+transparent;
+}
+a.Close:hover {
+font-size:22px;
+font-weight:700;
+background:#000;
+}
+a.Meta-Value:hover{
+color:#B8860B;
+}
+
+a.SmallButton,a.Button,input.Button,input.SmallButton,a.RestoreButton.SmallButton,a.DeleteButton.SmallButton,
+input#Form_Logo,a.DisableAddon.SmallButton,a.SmallButton.Add.Popable,a.RestoreButton.SmallButton, .SmallButton,input.SmallButton,a.EnableAddon.SmallButton,a.AddRoute.SmallButton.Popable,a.EditRoute.SmallButton,a.SmallButton.PreviewAddon,div.FilterMenu a,a.AddMessage.SmallButton.Popable,a.Popup.SmallButton.Popable,#Content h1 a,a.RemoveItem.SmallButton,div.EmbedRecommend em a,div.EmbedPlugins a.WordPress,a.Popup.Popable,td.Buttons a.SmallButton,div#PagerAfter.Pager.PrevNextPager.PrevNextPager a.Next,div#PagerBefore.Pager.PrevNextPager a.Next,td a.SmallButton,div a.SmallButton,td.UsernameCell a,div#PagerBefore.Pager.NumberedPager a,div#PagerBefore.Pager.NumberedPager span.Previous,span.Tag.Tag-Discussion a,a.Popup{
+background:-webkit-gradient(linear, center bottom, center top, from(#000000),to(#adadad));
+background:-moz-linear-gradient(top, #000000, #adadad);
+-pie-background:linear-gradient(top, #000000, #adadad);
+background:linear-gradient(top, #000000, #adadad);
+border:1px solid #666;
+border-radius:4px 4px 4px 4px;
+box-shadow:0 0 2px #999;
+color:#FAFAD2;
+cursor:pointer;
+font-size:14px;
+font-weight:700;
+margin:0;
+padding:3px 6px;
+text-decoration:none;
+text-shadow:1px 2px 0 #000;
+}
+div#PagerBefore.Pager.NumberedPager a.Highlight{
+color:gold;
+}
+a.SmallButton:hover,a.Button:hover,input.Button:hover,input.SmallButton:hover,a.SmallButton:focus,a.Button:focus,input.Button:focus,input.SmallButton:focus,a.Popup.SmallButton:hover,a.NotSpamButton.SmallButton:hover,a.DeleteButton.SmallButton:hover,a.RestoreButton.SmallButton:hover,a.SmallButton.Add.Popable:hover,.SmallButton:hover,input.SmallButton:hover,a.AddRoute.SmallButton.Popable:hover,td.Buttons a.SmallButton:hover,.a.Button:hover,a.DisableAddon.SmallButton:hover,a.SmallButton:hover,a.EnableAddon.SmallButton:hover,a.EditRoute.SmallButton:hover,a.SmallButton.PreviewAddon:hover,div.FilterMenu a:hover ,a.AddMessage.SmallButton.Popable:hover,a.Popup.SmallButton.Popable:hover,#Content h1 a:hover,a.RemoveItem.SmallButton:hover,div.EmbedRecommend em a:hover,a.Popup.Popable:hover ,div#PagerAfter.Pager.PrevNextPager.PrevNextPager a.Next:hover,div#PagerBefore.Pager.PrevNextPager a.Next:hover,td a.SmallButton:hover,div a.SmallButton:hover,li input#Form_Logo:hover,td.UsernameCell a:hover,div#PagerBefore.Pager.NumberedPager a:hover,div#PagerBefore.Pager.NumberedPager span.Previous:hover,span.Tag.Tag-Discussion a:hover,a.Popup:hover,div.EmbedPlugins a.WordPress:hover{
+-pie-background:linear-gradient(top,#adadad,#000000);
+background:linear-gradient(top,#adadad,#000000);
+background: -moz-linear-gradient(top , #adadad, #000000);
+background:-webkit-gradient(linear, center bottom, center top, from(#adadad),to(#000000));
+border-radius: 4px 4px 4px 4px;
+box-shadow: 0 0 2px #999999;
+border:1px solid #666;
+border-radius:4px 4px 4px 4px;
+box-shadow:0 0 2px #999;
+color:#FFFF00;
+text-shadow:1px 2px 0 #000;
+}
+
+td.Info a{
+}
+
+th.Alt a,table#Users.AltColumns thead tr th a {
+color:#000;
+font-weight:bold;
+text-shadow:none;
+}
+th.Alt a:hover,table#Users.AltColumns thead tr th a:hover{
+color:#0097e5;
+font-weight:bold;
+text-shadow:none;
+}
+ul.PanelInfo li.Active {
+color:#fff;
+text-shadow:1px 2px #000;
+}
+ul.PanelInfo li.Active a:hover{
+color:#fff;
+text-shadow:1px 2px #000;
+}
+a:hover{
+color:red;
+text-shadow:none;
+font-weight:bold;
+}
+a:link:hover{
+color:red;
+}
+code {
+background: none repeat scroll 0 0 #000;
+border-radius: 2px 2px 2px 2px;
+box-shadow: 0 0 1px #999;
+color:#FFD700;
+font-family: monospace;
+overflow: auto;
+padding: 4px;
+white-space: pre;
+}
+
+del {
+background:none repeat scroll 0 0 #222;
+color: #ffd700;
+padding:0 3px;
+}
+
+div.Box {
+border:1px solid #000;
+background:yellow;
+}
+
+div.Box.Group.Dashboard h4 a {
+color:#000!important;
+font-size:15px;
+text-shadow:0 2px 0  #ffd700!important;
+}
+
+div.Box.Group.Dashboard h4 a:hover,div.Box.Group.Import h4 a:hover {
+color: #fff!important;
+text-shadow:none!important;
+}
+div.Box.Group.Dashboard:hover {
+background:none #000!important;
+}
+
+div.Box.Group.Import:hover {
+background:#000!important;
+}
+#Foot div a:hover {
+display: block;
+background: url('/images/logo_footer.png') center center no-repeat;
+height: 32px;
+width: 72px;
+margin: 6px 0 10px;
+}
+div.Popup div.Body {
+-moz-border-radius:5px;
+-moz-box-shadow:0 0 3px #666;
+-webkit-border-radius:5px;
+-webkit-box-shadow:0 0 3px #666;
+background:#000;
+border:1px solid #666;
+border-radius:5px;
+box-shadow:0 0 3px #666;
+margin:0 auto;
+max-width:500px;
+padding:0 0 8px;
+position:relative;
+text-align:left;
+}
+
+div.Popup div.Legal, div.Popup .Content form {
+background:#FFD700;
+border:3px dotted #000;
+max-height: 450px;
+overflow: auto;
+padding: 0 10px 10px;
+}
+
+div.Popup form ul li label,div.Popup form ul li label.RadioLabel,div.Popup form ul li label.CheckBoxLabel {
+color:#000;
+font-size:14px;
+font-weight:700;
+}
+
+div.Popup h1,div.Popup h2 {
+-moz-border-radius:4px 4px 0 0;
+-webkit-border-radius:4px 4px 0 0;
+background:-webkit-gradient(linear, center bottom, center top, from(#000000),to(#adadad));
+background:-moz-linear-gradient(top, #000000, #adadad);
+-pie-background:linear-gradient(top, #000000, #adadad);
+background:linear-gradient(top, #000000, #adadad);
+border-bottom:1px solid #000;
+border-radius:4px 4px 0 0;
+color:#FAFAD2;
+font-size:16px;
+font-weight:700;
+padding:6px 9px 4px;
+text-shadow:0 1px 0 #000;
+}
+
+div.Popup h3 {
+color: #000;
+font-size: 16px;
+font-weight: 700;
+}
+
+div.Tabs li a span {
+background:none repeat scroll 0 0 #fff;
+border-radius:13px 13px 13px 13px;
+color:#000;
+font-size:13px;
+font-weight:700;
+line-height:1;
+margin:0 0 0 4px;
+padding:0 3px;
+text-shadow:none;
+}
+
+div.Tabs li a,div.Tabs li a:link,div.Tabs li a:active,div.Tabs li a:visited {
+background:-webkit-gradient(linear, center bottom, center top, from(#000000),to(#adadad));
+background:-moz-linear-gradient(top, #000000, #adadad);
+-pie-background:linear-gradient(top, #000000, #adadad);
+background:linear-gradient(top, #000000, #adadad);
+border:1px solid #666;
+border-radius:4px 4px 4px 4px;
+box-shadow:0 0 2px #999;
+color:#FAFAD2;
+cursor:pointer;
+font-size:14px;
+font-weight:700;
+margin:0;
+padding:6px 6px;
+text-decoration:none;
+text-shadow:1px 2px 0 #000
+}
+div.Tabs li a:hover{
+-pie-background:linear-gradient(top,#adadad,#000000);
+background:linear-gradient(top,#adadad,#000000);
+background: -moz-linear-gradient(top , #adadad, #000000);
+background:-webkit-gradient(linear, center bottom, center top, from(#adadad),to(#000000));
+border-radius: 4px 4px 4px 4px;
+box-shadow: 0 0 2px #999999;
+border:1px solid #666;
+border-radius:4px 4px 4px 4px;
+box-shadow:0 0 2px #999;
+color:#FFFF00;
+text-shadow:1px 2px 0 #000;
+}
+
+div.Tabs li.Active a {
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffd700, endColorstr=#FFFF00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd700), to(#FFFF00));
+  background: -moz-linear-gradient(top,  #ffd700, #FFFF00);
+background:linear-gradient(top,  #ffd700, #FFFF00);
+border-bottom:1px solid #000;
+color:#000;
+text-shadow:1px 2px 0  #ffd700;
+}
+div.Tabs li.Active a:hover {
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00, endColorstr=#ffd700);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#ffd700));
+  background: -moz-linear-gradient(top, #FFFF00, #ffd700);
+background:linear-gradient(top, #FFFF00, #ffd700);
+border-bottom:1px solid #000;
+color:#000;
+text-shadow:1px 2px 0  #ffd700;
+}
+form ul li label {
+color:#000;
+display:block;
+font-size:14px;
+font-weight:700;
+text-shadow:1px 2px 0  #ffd700;
+}
+form ul li label.RadioLabel {
+float: none;
+display: inline;
+font-weight: bold;
+}
+h3 {
+color:#000;
+font-size:14px;
+text-shadow:1px 2px 0  #ffd700;
+}
+
+input.DateBox, input.InputBox, input.SmallInput, textarea.TextBox, input.DateBox:focus, input.InputBox:focus, input.SmallInput:focus, textarea.TextBox:focus {
+background: none repeat scroll 0 0 #000;
+border: 1px solid #666;
+border-radius: 4px 4px 4px 4px;
+color:#FFFF00;
+font-family: arial;
+font-size: 16px;
+font-weight: 700;
+text-shadow:none;
+}
+
+select {
+background-color:#222;
+background-image:linear-gradient(top,#adadad,#000000);
+background-image: -ms-linear-gradient(top,#adadad,#000000);
+background-image: -moz-linear-gradient(top,#adadad,#000000);
+background-image: -o-linear-gradient(top,#adadad,#000000);
+background-image: -webkit-gradient(linear,left top,left bottom,from(#adadad),to(#000000));
+background-image: -webkit-linear-gradient(top,#adadad,#000000);
+border:1px solid #666;
+color: #ffd700;
+font-family:arial;
+font-size:14px;
+font-weight:700;
+height:28px;
+margin:0;
+padding:3px;
+text-shadow:1px 2px 0 #000;
+}
+
+strong {
+color:#000;
+}
+span.Tag.Tag-Discussion a {
+color:#fff;
+text-shadow:0 1px 0 #000;
+}
+span.Tag.Tag-Discussion a:hover {
+color:#FFFF00;
+text-shadow:0 1px 0 #000;
+}
+
+table {
+-moz-border-bottom-colors:none;
+-moz-border-left-colors:none;
+-moz-border-right-colors:none;
+-moz-border-top-colors:none;
+border-collapse:collapse;
+border-color:#666;
+border-image:none;
+border-style:solid;
+border-width:1px;
+margin:0;
+width:100%;
+}
+
+table tbody td.Info strong {
+color:#000;
+font-size:16px;
+font-weight:700;
+}
+
+table tbody th {
+color:#000;
+font-weight:700;
+}
+table.SelectionGrid td {
+width: 94%;
+border: none;
+padding: 16px;
+vertical-align: top;
+float: left;
+}
+table.Themes td {
+min-width: 80px;
+}
+table tbody tr.More th.Less,table tbody tr.More td.Less,table tbody th,table tbody td {
+border-bottom:1px solid #000;
+}
+
+table thead th, table thead td {
+border: 1px solid 
+#000;
+}
+
+table#Log.AltColumns, table#Users.AltColumns, table tbody th, table tbody td, table.Label.AltRows {
+border: 1px solid #000;
+background:#ff0;
+}
+
+table.AltColumns th.Alt,table.AltColumns td.Alt {
+font-size:14px;
+}
+
+table.AltRows tbody tr.Enabled td.Info,table.AltColumns tbody tr.Enabled td.Info,table.AltRows tbody tr.Disabled td.Info,table.AltColumns tbody tr.Disabled td.Info {
+color:#000;
+text-shadow:1px 2px 0  #ffd700;
+}
+
+table.AltRows tr.Alt th,table.AltRows tr.Alt td {
+background:#FFFF00;
+border:1px solid #000;
+color:#000;
+font-weight:700;
+}
+
+table.AltRows tr.Disabled th,table.AltRows tr.Disabled td,table.AltColumns tr.Disabled th,table.AltColumns tr.Disabled td,table.AltColumns th.Alt,table.AltColumns td.Alt {
+font-weight:700;
+background:#FFFF00;
+}
+
+table.AltRows tr.Enabled th,table.AltRows tr.Enabled td,table.AltColumns tr.Enabled th,table.AltColumns tr.Enabled td {
+background:#ffd700;
+border:1px solid #000;
+color:#000;
+font-weight:700;
+}
+
+table.SelectionGrid h4 {
+color:#000;
+font-size:16px;
+margin-bottom:10px;
+text-shadow:1px 2px 0 #ffd700;
+}
+
+table.SelectionGrid td.FirstCol, table.SelectionGrid td.EmptyCol, table.SelectionGrid td.LastCol, table.SelectionGrid td {
+border-color:#000;
+background:ffd700;
+}
+table.SelectionGrid td.EmptyCol, table.SelectionGrid td.LastCol {
+border-left:none;
+}
+table.SelectionGrid td {
+width:94%;
+border: 1px solid #000;
+border-width: 0 0 1px;
+padding: 16px;
+vertical-align: top;
+}
+table.SelectionGrid {
+background: none;
+margin: 0;
+border: none;
+}
+table.SelectionGrid td.FirstCol {
+border-right: 1px solid #000;
+}
+table.SelectionGrid td.FirstCol {
+border-right: none;
+}
+td.Alt{
+font-weight:bold;
+}
+ul.PanelInfo li a {
+color:#000;
+display:block;
+font-size:14px;
+font-weight:700;
+padding:2px 10px;
+text-shadow:1px 2px 0  #FFFF00;
+}
+
+ul.PanelInfo li a:hover {
+color:#FFF;
+display:block;
+font-size:14px;
+font-weight:700;
+padding:2px 10px;
+text-shadow:1px 2px 0 #000;
+}
+
+ul.PanelInfo li.Active {
+background:url(images/arrow.png) no-repeat scroll left center #FFD700;
+border: 1px dotted #000;
+}
+
+ul.PanelInfo li.Active a {
+color:#000;
+text-shadow:1px 2px 0  #ffd700;
+}
+
+ul.PanelInfo li:hover {
+background:#000;
+}
